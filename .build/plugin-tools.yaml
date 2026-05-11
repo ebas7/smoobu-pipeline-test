@@ -1,0 +1,47 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "Smoobu-arm64-apple-macosx26.0-debug.module": ["<Smoobu-arm64-apple-macosx26.0-debug.module>"]
+  "main": ["<Smoobu-arm64-apple-macosx26.0-debug.module>"]
+  "test": ["<Smoobu-arm64-apple-macosx26.0-debug.module>"]
+default: "main"
+nodes:
+  "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/Sources/Smoobu/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/Smoobu.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/Sources/Smoobu/Components/LoadingSpinner.swift"]
+    outputs: ["/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/Smoobu.build/sources"]
+    description: "Write auxiliary file /private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/Smoobu.build/sources"
+
+  "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<Smoobu-arm64-apple-macosx26.0-debug.module>":
+    tool: phony
+    inputs: ["/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/Smoobu.build/LoadingSpinner.swift.o","/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/Modules/Smoobu.swiftmodule"]
+    outputs: ["<Smoobu-arm64-apple-macosx26.0-debug.module>"]
+
+  "C.Smoobu-arm64-apple-macosx26.0-debug.module":
+    tool: shell
+    inputs: ["/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/Sources/Smoobu/Components/LoadingSpinner.swift","/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/Smoobu.build/sources"]
+    outputs: ["/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/Smoobu.build/LoadingSpinner.swift.o","/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/Modules/Smoobu.swiftmodule"]
+    description: "Compiling Swift Module 'Smoobu' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","Smoobu","-emit-dependencies","-emit-module","-emit-module-path","/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/Modules/Smoobu.swiftmodule","-output-file-map","/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/Smoobu.build/output-file-map.json","-parse-as-library","-incremental","-c","@/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/Smoobu.build/sources","-I","/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx10.13","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j10","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/.build/arm64-apple-macosx/debug/Smoobu.build/include/Smoobu-Swift.h","-swift-version","5","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","smoobu_demo_8_ios_1778491695569"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/Sources/Smoobu/","/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/Package.swift","/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-8-ios-1778491695569/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
