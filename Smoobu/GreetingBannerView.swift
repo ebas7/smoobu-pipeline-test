@@ -15,7 +15,7 @@ struct GreetingBannerView: View {
     }
 
     var body: some View {
-        Text("greeting_banner_welcome \(userName)")
+        Text(LocalizedStringKey("greeting_banner_welcome \(userName)"))
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(.horizontal, BannerSpacing.medium)
             .padding(.vertical, BannerSpacing.small)
