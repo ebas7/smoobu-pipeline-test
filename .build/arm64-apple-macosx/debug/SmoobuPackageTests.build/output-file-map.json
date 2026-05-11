@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/SmoobuPackageTests.build/master.swiftdeps"
+  },
+  "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/SmoobuPackageTests.derived/runner.swift": {
+    "dependencies": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/SmoobuPackageTests.build/runner.d",
+    "object": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/SmoobuPackageTests.build/runner.swift.o",
+    "swiftmodule": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/SmoobuPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/SmoobuPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/SmoobuPackageTests.build/runner.dia"
+  }
+}

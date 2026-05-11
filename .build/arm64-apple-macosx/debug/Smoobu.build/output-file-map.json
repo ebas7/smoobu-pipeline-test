@@ -1,0 +1,33 @@
+{
+  "": {
+    "swift-dependencies": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/master.swiftdeps"
+  },
+  "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/Sources/Smoobu/GreetingBanner.swift": {
+    "dependencies": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/GreetingBanner.d",
+    "object": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/GreetingBanner.swift.o",
+    "swiftmodule": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/GreetingBanner~partial.swiftmodule",
+    "swift-dependencies": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/GreetingBanner.swiftdeps",
+    "diagnostics": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/GreetingBanner.dia"
+  },
+  "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/Sources/Smoobu/GreetingUserName.swift": {
+    "dependencies": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/GreetingUserName.d",
+    "object": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/GreetingUserName.swift.o",
+    "swiftmodule": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/GreetingUserName~partial.swiftmodule",
+    "swift-dependencies": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/GreetingUserName.swiftdeps",
+    "diagnostics": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/GreetingUserName.dia"
+  },
+  "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/Sources/Smoobu/Spacing.swift": {
+    "dependencies": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/Spacing.d",
+    "object": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/Spacing.swift.o",
+    "swiftmodule": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/Spacing~partial.swiftmodule",
+    "swift-dependencies": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/Spacing.swiftdeps",
+    "diagnostics": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/Spacing.dia"
+  },
+  "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/resource_bundle_accessor.d",
+    "object": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/resource_bundle_accessor.swiftdeps",
+    "diagnostics": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/Smoobu.build/resource_bundle_accessor.dia"
+  }
+}

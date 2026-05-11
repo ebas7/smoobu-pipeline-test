@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/SmoobuTests.build/master.swiftdeps"
+  },
+  "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/Tests/SmoobuTests/GreetingUserNameTests.swift": {
+    "dependencies": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/SmoobuTests.build/GreetingUserNameTests.d",
+    "object": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/SmoobuTests.build/GreetingUserNameTests.swift.o",
+    "swiftmodule": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/SmoobuTests.build/GreetingUserNameTests~partial.swiftmodule",
+    "swift-dependencies": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/SmoobuTests.build/GreetingUserNameTests.swiftdeps",
+    "diagnostics": "/private/var/folders/p0/7jmtp_g93mbdkt0h6tqkjrnw0000gn/T/smoobu-pipeline/SMOOBU-DEMO-9-ios-1778492235484/.build/arm64-apple-macosx/debug/SmoobuTests.build/GreetingUserNameTests.dia"
+  }
+}
